@@ -7,7 +7,12 @@ The dataset consists of roughly 1.8 million bike rides from Ford's GoBike bike s
 The variables for each individual ride include the trip start & end time, start & end station, trip duration in seconds as well as extra information such as user type.
 
 ## Summary of Findings
-The first finding was that **customers ride for much longer on average than subscribers**. Customers are defined as those riders who do not have any monthly or annual membership to the system and instead ride pay-per-minute. What was discovered is that customers ride on average about 3 times longer than subscribers while only making up about 15% of all riders.
+In the exploration, I found that there was a strong relationship between ride durations and various factors such as city, user type and when the ride takes place. These variables produce intuitively explainable and statistically significant effects on the average ride duration. I explored these relationship with multiple bar charts for the 2 variable relationships as well as heat maps with subplots for the multi-variate explorations.
+
+Outside of the main variables of interest, I also investigated the relationship that a particular city has on relationship between ride duration. For this I imported New York City's Citibike dataset from the same year. I explored the trends in user types and time of rides.
+
+## Key Insights
+The first insight was that **customers ride for much longer on average than subscribers**. Customers are defined as those riders who do not have any monthly or annual membership to the system and instead ride pay-per-minute. What was discovered is that customers ride on average about 3 times longer than subscribers while only making up about 15% of all riders.
 
 Secondly, after discovering that there was very minimal seasonal fluctutation in trip durations in San Francisco I downloaded & imported 2018's dataset for New York City's Citibike system. After comparing the two cities it was clear that there was a **significant difference in seasonal fluctuations of ride length between San Fran and NYC**. This was to be expected as San Francisco has a notoiously temperate climate and New York has hot summers as well as freezing/snowy winters. 
 
